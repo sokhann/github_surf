@@ -7,7 +7,7 @@ function App() {
 	return (
 		<>
 			<Navigation />
-			<main className="p-4 h-screen">
+			<main className="p-4">
 				<Routes>
 					<Route path="/" element={<HomePage />} />
 					<Route path="/favorites" element={<FavoritesPage />} />

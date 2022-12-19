@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+	background: linear-gradient(180deg, #3b82f6, #2563eb);
+	min-height: 100vh;
+}
+
+h1 {
+	font-weight: 700;
+	color: #fff;
+	font-size: 24px;
+}
